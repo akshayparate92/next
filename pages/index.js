@@ -28,7 +28,7 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <Link to="/news" className={styles.newsLink}> News </Link>
+          <Link href="/news"> News </Link>
           <Image
             className={styles.logo}
             src="/next.svg"
